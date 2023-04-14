@@ -1,0 +1,38 @@
+.li_repo_card_container {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding: 30px;
+  margin: 10px;
+  background-color: rgb(210, 226, 241);
+  border-radius: 30px;
+}
+
+.avatar_img {
+  width: 110px;
+  height: 110px;
+  align-self: center;
+}
+
+.repo_name {
+  color: #e73959;
+  font-size: 18px;
+  align-self: center;
+  font-weight: 700;
+}
+
+.repo_iconAndPara_container {
+  display: flex;
+  align-items: center;
+}
+
+.repo_icons {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.repo_paras {
+  color: rgba(7, 7, 36, 0.951);
+  font-size: 14px;
+}
